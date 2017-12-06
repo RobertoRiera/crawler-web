@@ -18,7 +18,8 @@ El método "get_value" recorre los tag del xml en profundidad, por parámetro se
 ####Proceso para añadir un tag al xml
 1. Se añade el tag correspondiente en el xml
 2. Se crea una constante en el módulo configuration.py con valor del nombre del tag
-
+##Descargar el shape_predictor_68_face_landmarks.dat:
+http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 ##Commits:
 [ADD] Añadir funcionalidad
 [FIX] Solucionar incidencia
