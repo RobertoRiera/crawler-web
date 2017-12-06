@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<conf_path>
+    <ruta_fichero_salida>/home/cantim/TFG/Project</ruta_fichero_salida>
+    <ruta_fichero_tipo_clasificador> </ruta_fichero_tipo_clasificador>
+
+    <rutas_detectores>
+        <cara>/home/pedro/data/haarcascades/haarcascade_frontalface_alt.xml</cara>
+        <ojo_derecho>/home/pedro/data/haarcascades/haarcascade_mcs_righteye.xml</ojo_derecho>
+        <ojo_izquierdo>/home/pedro/data/haarcascades/haarcascade_mcs_lefteye.xml</ojo_izquierdo>
+        <boca>/home/pedro/data/haarcascades/haarcascade_mcs_mouth.xml</boca>
+        <hombro_cabeza_hombro>/home/pedro/opencv-2.4.11/data/haarcascades/haarcascade_mcs_upperbody.xml</hombro_cabeza_hombro>
+        <dlib_face_landmarks>/home/cantim/TFG/utils/shape_predictor_68_face_landmarks.dat</dlib_face_landmarks>
+    </rutas_detectores>
+    <rutas_tiposPlanos_CNN>
+        <modelo>/home/pedro/caffe/models/planosParlamento/deploy_tipos_planos.prototxt</modelo>
+        <pesos>/home/pedro/caffe/models/planosParlamento/tipos_planos_net_iter_10000.caffemodel</pesos>
+        <promedio>/home/pedro/caffe/models/planosParlamento/mean_tipos_planos.binaryproto</promedio>
+    </rutas_tiposPlanos_CNN>
+    <rutas_sexos_CNN>
+        <modelo>/home/pedro/caffe/models/clasificadorSexoGRORUPS/deploy.prototxt</modelo>
+        <pesos>/home/pedro/caffe/models/clasificadorSexoGRORUPS/groups_FullHS_100_iter_50000.caffemodel</pesos>
+        <promedio>/home/pedro/caffe/models/clasificadorSexoGRORUPS/mean-GROUPSHS_100.binaryproto</promedio>
+    </rutas_sexos_CNN>
+
+</conf_path>
